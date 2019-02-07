@@ -1,0 +1,48 @@
+.main-nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.left-nav > ul,
+.right-nav > ul {
+ display: flex;
+ align-items: center;
+}
+
+.left-nav > ul > li {
+  color: black;
+}
+
+.right-nav > ul > li {
+  background-color: #6288a5;
+  border: 1px, solid, #326891;
+  font-family: nyt-franklin,helvetica,arial,sans-serif; 
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 700;
+  font-size: 11px;
+  letter-spacing: 0.05em;
+  color: white;
+  margin: 2px;
+
+}
+
+.right-nav > ul > li:last-of-type {
+  color: black;
+  background-color: white;
+}
+
+.left-nav > ul > li:hover,
+.right-nav > ul > li:last-of-type:hover {
+
+}
+
+.left-nav span {
+
+}
+
+
+.right-nav i {
+
+}
